@@ -1,0 +1,911 @@
+[Sandcastle Help File Builder GUI, version 1.6.0.2]
+Build started at 12/2/2008 12:52:52 PM
+
+Finding tools...
+Found Sandcastle in 'C:\Program Files\Sandcastle\'
+Found HTML 1.x help compiler in 'C:\Program Files\HTML Help Workshop\'
+Validating documentation assembly information...
+-------------------------------
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0937
+-------------------------------
+Copying documentation assembly dependencies...
+No dependencies to copy
+    Last step completed in 00:00:00.0156
+-------------------------------
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0156
+-------------------------------
+Generating reflection information...
+[H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\GenerateRefInfo.bat]
+MrefBuilder (v2.3.8000.26)
+Copyright c Microsoft 2006
+Info: Loaded 1 assemblies for reflection and 0 dependency assemblies.
+Info: Wrote information on 3 namespaces, 19 types, and 349 members
+    Last step completed in 00:00:02.1250
+-------------------------------
+Removing duplicate topics from reflection information file
+    0 duplicate topics removed
+    Last step completed in 00:00:00.0000
+-------------------------------
+Generating namespace summary information...
+    Warning: Missing namespace summary documentation for N:ScrimpNet.Core
+    Warning: Missing namespace summary documentation for N:ScrimpNet.Diagnostics.Logging
+    Warning: Missing namespace summary documentation for N:ScrimpNet.Web
+    Last step completed in 00:00:00.0000
+-------------------------------
+Applying visibility properties to reflection information file
+    5 attribute nodes removed
+    1 explicit interface implementations removed
+    23 local and base class EII elements removed
+    Last step completed in 00:00:01.3750
+-------------------------------
+Transforming reflection output...
+[H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\TransformManifest.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\ApplyPrototypeDocModel.xsl'.
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl'.
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl'.
+    Last step completed in 00:00:03.4218
+-------------------------------
+Modifying help topic filenames in reflection information file
+No changes required
+    Last step completed in 00:00:00.0000
+-------------------------------
+Copying standard help content...
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\alert_caution.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\alert_caution.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\alert_note.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\alert_note.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\alert_security.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\alert_security.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\Caution.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\Caution.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\CFW.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\CFW.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\collapse_all.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\collapse_all.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\copycode.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\copycode.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\expand_all.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\expand_all.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\LastChild.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\LastChild.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\NotLastChild.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\NotLastChild.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privclass.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\privclass.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privdelegate.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\privdelegate.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privenum.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\privenum.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privevent.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\privevent.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privfield.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\privfield.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privinterface.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\privinterface.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privmethod.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\privmethod.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privproperty.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\privproperty.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\privstructure.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\privstructure.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protclass.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\protclass.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protdelegate.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\protdelegate.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protenum.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\protenum.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protevent.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\protevent.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protfield.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\protfield.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protfield.png -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\protfield.png
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protinterface.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\protinterface.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protmethod.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\protmethod.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protoperator.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\protoperator.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protproperty.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\protproperty.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\protstructure.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\protstructure.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubclass.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\pubclass.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubdelegate.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\pubdelegate.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubenum.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\pubenum.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubevent.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\pubevent.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubfield.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\pubfield.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubinterface.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\pubinterface.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubmethod.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\pubmethod.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\puboperator.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\puboperator.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubproperty.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\pubproperty.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\pubstructure.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\pubstructure.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\security.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\security.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\icons\static.gif -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\icons\static.gif
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\CollapsibleSection.js -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\scripts\CollapsibleSection.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\CookieDataStore.js -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\scripts\CookieDataStore.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\ElementCollection.js -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\scripts\ElementCollection.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\EventUtilities.js -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\scripts\EventUtilities.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\LanguageFilter.js -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\scripts\LanguageFilter.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\MemberFilter.js -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\scripts\MemberFilter.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\SplitScreen.js -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\scripts\SplitScreen.js
+C:\Program Files\Sandcastle\Presentation\Prototype\scripts\StyleUtilities.js -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\scripts\StyleUtilities.js
+C:\Program Files\Sandcastle\Presentation\Prototype\styles\presentation.css -> H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\styles\presentation.css
+    Last step completed in 00:00:02.4062
+
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:01.5000
+-------------------------------
+Creating Sandcastle configuration file...
+    Last step completed in 00:00:00.0937
+-------------------------------
+Merging custom build component configurations
+    No component configurations to merge
+    Last step completed in 00:00:00.0312
+-------------------------------
+Building help topics...
+[H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\BuildHelpTopics.bat]
+BuildAssembler (v2.3.8000.26)
+Copyright c Microsoft 2006
+Info: CopyFromFileComponent: Instantiating component.
+Info: CopyFromFileComponent: Loading data file 'C:\Program Files\Sandcastle\Presentation\Prototype\transforms\skeleton.xml'.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Searching for files that match '*.xml'.
+Info: CopyFromIndexComponent: Searching for files that match 'reflection.xml'.
+Info: CopyFromIndexComponent: Indexed 170469 elements in 107 files.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ForEachComponent: Instantiating component.
+Info: ForEachComponent: Loading subcomponents.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ForEachComponent: Loaded 1 subcomponents.
+Info: IfThenComponent: Instantiating component.
+Info: SyntaxComponent: Instantiating component.
+Info: SyntaxComponent: Loaded 1 syntax generators.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Searching for files that match '*.xml'.
+Warn: CopyFromIndexComponent: Entries for the key 'N:System.Data.SqlClient' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlCommand' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.#ctor' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.#ctor(System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.#ctor(System.String,System.Data.SqlClient.SqlConnection)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.#ctor(System.String,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.Cancel' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.CreateParameter' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteNonQuery' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteReader' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteReader(System.Data.CommandBehavior)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteScalar' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ExecuteXmlReader' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.Prepare' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommand.ResetCommandTimeout' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.CommandText' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.CommandTimeout' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.CommandType' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.Connection' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.Parameters' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.Transaction' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommand.UpdatedRowSource' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlCommandBuilder' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.#ctor' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.#ctor(System.Data.SqlClient.SqlDataAdapter)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(System.Data.SqlClient.SqlCommand)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.GetDeleteCommand' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.GetInsertCommand' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlCommandBuilder.GetUpdateCommand' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommandBuilder.DataAdapter' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommandBuilder.QuotePrefix' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlCommandBuilder.QuoteSuffix' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlConnection' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.#ctor' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.#ctor(System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'E:System.Data.SqlClient.SqlConnection.InfoMessage' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.BeginTransaction' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.BeginTransaction(System.Data.IsolationLevel)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.BeginTransaction(System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.BeginTransaction(System.Data.IsolationLevel,System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.ChangeDatabase(System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.Close' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.CreateCommand' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.Open' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlConnection.System.ICloneable.Clone' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.ConnectionString' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.ConnectionTimeout' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.Database' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.DataSource' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.PacketSize' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.ServerVersion' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.State' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlConnection.WorkstationId' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlDataAdapter' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataAdapter.#ctor' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataAdapter.#ctor(System.Data.SqlClient.SqlCommand)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataAdapter.#ctor(System.String,System.Data.SqlClient.SqlConnection)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataAdapter.#ctor(System.String,System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'E:System.Data.SqlClient.SqlDataAdapter.RowUpdated' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'E:System.Data.SqlClient.SqlDataAdapter.RowUpdating' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.DeleteCommand' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.InsertCommand' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.SelectCommand' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.System.Data.IDbDataAdapter.DeleteCommand' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.System.Data.IDbDataAdapter.InsertCommand' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.System.Data.IDbDataAdapter.SelectCommand' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.System.Data.IDbDataAdapter.UpdateCommand' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataAdapter.UpdateCommand' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlDataReader' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.Close' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetBoolean(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetByte(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetChar(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetDataTypeName(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetDateTime(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetDecimal(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetDouble(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetFieldType(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetFloat(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetGuid(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetInt16(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetInt32(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetInt64(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetName(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetOrdinal(System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSchemaTable' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlBinary(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlBoolean(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlByte(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlDateTime(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlDecimal(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlDouble(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlGuid(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlInt16(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlInt32(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlInt64(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlMoney(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlSingle(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlString(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlValue(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetSqlValues(System.Object[])' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetString(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetValue(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.GetValues(System.Object[])' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.IsDBNull(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.NextResult' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlDataReader.Read' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.Depth' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.FieldCount' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.IsClosed' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.Item(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.Item(System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlDataReader.RecordsAffected' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlError' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlError.ToString' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Class' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.LineNumber' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Message' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Number' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Procedure' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Server' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.Source' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlError.State' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlErrorCollection' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlErrorCollection.CopyTo(System.Array,System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlErrorCollection.GetEnumerator' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlErrorCollection.Count' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlErrorCollection.Item(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlErrorCollection.System.Collections.ICollection.IsSynchronized' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlErrorCollection.System.Collections.ICollection.SyncRoot' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlException' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Class' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Errors' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.LineNumber' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Number' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Procedure' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Server' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.Source' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlException.State' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlInfoMessageEventArgs' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlInfoMessageEventArgs.ToString' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlInfoMessageEventArgs.Errors' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlInfoMessageEventArgs.Message' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlInfoMessageEventArgs.Source' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlInfoMessageEventHandler' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlParameter' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Object)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType,System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType,System.Int32,System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.#ctor(System.String,System.Data.SqlDbType,System.Int32,System.Data.ParameterDirection,System.Boolean,System.Byte,System.Byte,System.String,System.Data.DataRowVersion,System.Object)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.System.ICloneable.Clone' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameter.ToString' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.DbType' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Direction' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.IsNullable' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Offset' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.ParameterName' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Precision' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Scale' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Size' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.SourceColumn' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.SourceVersion' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.SqlDbType' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameter.Value' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlParameterCollection' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.Object)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.Data.SqlClient.SqlParameter)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Object)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Data.SqlDbType)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Data.SqlDbType,System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Add(System.String,System.Data.SqlDbType,System.Int32,System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.AddWithValue(System.String,System.Object)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Clear' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Contains(System.Object)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Contains(System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.CopyTo(System.Array,System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.GetEnumerator' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.IndexOf(System.Object)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.IndexOf(System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Insert(System.Int32,System.Object)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.Remove(System.Object)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.RemoveAt(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlParameterCollection.RemoveAt(System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameterCollection.Count' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameterCollection.Item(System.Int32)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlParameterCollection.Item(System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlRowUpdatedEventArgs' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlRowUpdatedEventArgs.#ctor(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlRowUpdatedEventArgs.Command' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlRowUpdatedEventHandler' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlRowUpdatingEventArgs' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlRowUpdatingEventArgs.#ctor(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlRowUpdatingEventArgs.Command' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlRowUpdatingEventHandler' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'T:System.Data.SqlClient.SqlTransaction' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlTransaction.Commit' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlTransaction.Rollback' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlTransaction.Rollback(System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'M:System.Data.SqlClient.SqlTransaction.Save(System.String)' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlTransaction.Connection' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Warn: CopyFromIndexComponent: Entries for the key 'P:System.Data.SqlClient.SqlTransaction.IsolationLevel' occur in both 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.SqlClient.xml' and 'C:\WINNT\Microsoft.NET\Framework\v2.0.50727\System.Data.xml'. The last entry will be used.
+Info: CopyFromIndexComponent: Searching for files that match 'H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\ScrimpNet.xml'.
+Info: CopyFromIndexComponent: Indexed 75830 elements in 66 files.
+Info: ForEachComponent: Instantiating component.
+Info: ForEachComponent: Loading subcomponents.
+Info: IfThenComponent: Instantiating component.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ForEachComponent: Loaded 2 subcomponents.
+Info: CopyFromIndexComponent: Instantiating component.
+Info: ShowMissingComponent: Instantiating component.
+Info: ShowMissingComponent: 
+    [Sandcastle Help File Builder Components, version 1.6.0.2]
+    Show Missing Documentation Component. Copyright c 2006-2007, Eric Woodruff, All Rights Reserved
+    http://www.codeplex.com/SHFB
+Info: VersionInfoComponent: Instantiating component.
+Info: VersionInfoComponent: 
+    [Sandcastle Help File Builder Components, version 1.6.0.2]
+    Version Information Component. Copyright c 2006-2007, Eric Woodruff, All Rights Reserved
+    http://www.codeplex.com/SHFB
+Info: CodeBlockComponent: Instantiating component.
+Info: CodeBlockComponent: 
+    [Sandcastle Help File Builder Components, version 1.6.0.2]
+    Code Block Component. Copyright c 2006-2007, Eric Woodruff, All Rights Reserved.
+    Portions copyright (c) 2003, Jonathan de Halleux, All rights reserved.
+    http://www.codeplex.com/SHFB
+Info: TransformComponent: Instantiating component.
+Info: PostTransformComponent: Instantiating component.
+Info: PostTransformComponent: 
+    [Sandcastle Help File Builder Components, version 1.6.0.2]
+    Post-Transform Component. Copyright c 2006-2007, Eric Woodruff, All Rights Reserved
+    http://www.codeplex.com/SHFB
+Info: SharedContentComponent: Instantiating component.
+Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\Prototype\content\shared_content.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\Prototype\content\shared_content.xml'.
+Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\Prototype\content\shared_content.xml.
+Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\Prototype\content\reference_content.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\Prototype\content\reference_content.xml'.
+Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\Prototype\content\reference_content.xml.
+Info: SharedContentComponent: Searching for files that match 'C:\Program Files\Sandcastle\Presentation\Shared\content\syntax_content.xml'.
+Info: SharedContentComponent: Loading shared content file 'C:\Program Files\Sandcastle\Presentation\Shared\content\syntax_content.xml'.
+Info: SharedContentComponent: Found 1 files in C:\Program Files\Sandcastle\Presentation\Shared\content\syntax_content.xml.
+Info: SharedContentComponent: Searching for files that match 'SharedBuilderContent.xml'.
+Info: SharedContentComponent: Loading shared content file 'H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'rootlink' with value in file 'H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'producttitle' with value in file 'H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'locationinformation' with value in file 'H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'locale' with value in file 'H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'copyright' with value in file 'H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\SharedBuilderContent.xml'.
+Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
+Info: SharedContentComponent: Searching for files that match 'PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Loading shared content file 'H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'header' with value in file 'H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Overriding shared content item 'footer' with value in file 'H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\PresentationStyleBuilderContent.xml'.
+Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
+Info: SharedContentComponent: Loaded 210 shared content items.
+Info: ResolveReferenceLinksComponent2: Instantiating component.
+Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
+Info: ResolveReferenceLinksComponent2: Searching directory 'C:\Program Files\Sandcastle\Data\Reflection' for targets files of the form '*.xml'.
+Info: ResolveReferenceLinksComponent2: Searching directory 'H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working' for targets files of the form 'reflection.xml'.
+Info: ResolveReferenceLinksComponent2: Loaded 170511 reference targets.
+Info: SaveComponent: Instantiating component.
+Info: BuildAssembler: Building topic N:ScrimpNet.Core
+Info: BuildAssembler: Building topic T:ScrimpNet.CitationAttribute
+Warn: ResolveReferenceLinksComponent2: MSDN URL not found for target 'T:System.Attribute'.
+Info: BuildAssembler: Building topic M:ScrimpNet.CitationAttribute.#ctor(System.String)
+Info: BuildAssembler: Building topic P:ScrimpNet.CitationAttribute.AcquiredDate
+Info: BuildAssembler: Building topic P:ScrimpNet.CitationAttribute.Author
+Info: BuildAssembler: Building topic P:ScrimpNet.CitationAttribute.CitationId
+Info: BuildAssembler: Building topic P:ScrimpNet.CitationAttribute.CitationType
+Info: BuildAssembler: Building topic P:ScrimpNet.CitationAttribute.LibraryId
+Info: BuildAssembler: Building topic P:ScrimpNet.CitationAttribute.License
+Info: BuildAssembler: Building topic P:ScrimpNet.CitationAttribute.Notes
+Info: BuildAssembler: Building topic P:ScrimpNet.CitationAttribute.Source
+Info: BuildAssembler: Building topic P:ScrimpNet.CitationAttribute.SourceDate
+Info: BuildAssembler: Building topic T:ScrimpNet.CitationExclusionAttribute
+Info: BuildAssembler: Building topic M:ScrimpNet.CitationExclusionAttribute.#ctor
+Info: ShowMissingComponent: Auto-documenting constructor M:ScrimpNet.CitationExclusionAttribute.#ctor
+Info: BuildAssembler: Building topic T:ScrimpNet.CitationType
+Info: BuildAssembler: Building topic T:ScrimpNet.SNetDbException
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetDbException.AddMessage
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetDbException.#ctor
+Info: ShowMissingComponent: Auto-documenting constructor M:ScrimpNet.SNetDbException.#ctor
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetDbException.DbCommand
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetDbException.ReadXml(System.Xml.XmlReader)
+Warn: ShowMissingComponent: Missing <param name="reader"> documentation for M:ScrimpNet.SNetDbException.ReadXml(System.Xml.XmlReader)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetDbException.ToString
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetDbException.WriteExtendedXml(System.Xml.XmlWriter)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetDbException.WriteXml(System.Xml.XmlWriter)
+Info: BuildAssembler: Building topic T:ScrimpNet.SNetException
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetException.AddMessage
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetException..ctor
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetException.NewException
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetException.Throw
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Exception)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Exception,ScrimpNet.SNetExceptionSeverity,System.String,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Exception,System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Exception,System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Exception,System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Exception,System.Int32,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Exception,System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Exception,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Exception,System.String,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Int32,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.String,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.String,System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.#ctor(System.String,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.AddMessage(ScrimpNet.SNetExceptionSeverity,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.AddMessage(ScrimpNet.SNetExceptionSeverity,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.AddMessage(System.Int32)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.AddMessage(System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.AddMessage(System.Int32,ScrimpNet.SNetExceptionSeverity)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.AddMessage(System.Int32,ScrimpNet.SNetExceptionSeverity)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.AddMessage(System.Int32,ScrimpNet.SNetExceptionSeverity,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.AddMessage(System.Int32,ScrimpNet.SNetExceptionSeverity,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.AddMessage(System.Int32,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.AddMessage(System.Int32,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.AddMessage(System.String,ScrimpNet.SNetExceptionSeverity,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.AddMessage(System.String,ScrimpNet.SNetExceptionSeverity,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.AddMessage(System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.AddMessage(System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.AddMessage(System.String,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.AddMessage(System.String,System.String,System.Object[])
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetException.Category
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetException.Details
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetException.ExceptionCode
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetException.ExceptionCodes
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetException.ExceptionNumber
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetException.ExceptionNumbers
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.FillContext(ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.GetDefaultOptions
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.GetDefaultSeverity
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.GetSchema
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetException.Message
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Exception)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Exception)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Exception,System.Int32)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Exception,System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Exception,System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Exception,System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Exception,System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Exception,System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Exception,System.String)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Exception,System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Exception,System.String,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Exception,System.String,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Exception,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Exception,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Int32)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Int32,System.Exception,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Int32,System.Exception,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.Int32,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.Int32,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.String)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.String,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.String,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.String,System.Exception,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.String,System.Exception,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.NewException``1(System.String,System.String,System.Object[])
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetException.NewException``1(System.String,System.String,System.Object[])
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetException.Options
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.ReadXml(System.Xml.XmlReader)
+Warn: ShowMissingComponent: Missing <param name="reader"> documentation for M:ScrimpNet.SNetException.ReadXml(System.Xml.XmlReader)
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetException.Severity
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Exception)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Exception)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Exception,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Exception,System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Exception,System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Exception,System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Exception,System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Exception,System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Exception,System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Exception,System.Int32,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Exception,System.Int32,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Exception,System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Exception,System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Exception,System.String,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Exception,System.String,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Exception,System.String,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Exception,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Exception,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Exception,System.String,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Int32,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.Int32,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.Int32,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.String,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.String,ScrimpNet.SNetExceptionSeverity,ScrimpNet.SNetExceptionOptions,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.String,System.Exception,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw(System.String,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.Throw``1(System.String,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.WriteExtendedXml(System.Xml.XmlWriter)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetException.WriteXml(System.Xml.XmlWriter)
+Warn: ShowMissingComponent: Missing <param name="writer"> documentation for M:ScrimpNet.SNetException.WriteXml(System.Xml.XmlWriter)
+Info: BuildAssembler: Building topic T:ScrimpNet.SNetExceptionDetail
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetExceptionDetail..ctor
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetail.#ctor
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetail.#ctor(ScrimpNet.SNetExceptionSeverity,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetail.#ctor(System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetail.#ctor(System.Int32,ScrimpNet.SNetExceptionSeverity)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetail.#ctor(System.Int32,ScrimpNet.SNetExceptionSeverity,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetail.#ctor(System.Int32,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetail.#ctor(System.String,ScrimpNet.SNetExceptionSeverity,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetail.#ctor(System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetail.#ctor(System.String,System.String,System.Object[])
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetExceptionDetail.ExceptionCode
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetExceptionDetail.ExceptionNumber
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetail.GetSchema
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.SNetExceptionDetail.GetSchema
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetExceptionDetail.MessageText
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetExceptionDetail.Severity
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetail.ToString
+Info: BuildAssembler: Building topic T:ScrimpNet.SNetExceptionDetails
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetExceptionDetails.Exists
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetExceptionDetails.FindAll
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetExceptionDetails.Item
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetExceptionDetails.BinarySearch
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetExceptionDetails.CopyTo
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetExceptionDetails.FindIndex
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetExceptionDetails.FindLastIndex
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetExceptionDetails.IndexOf
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetExceptionDetails.LastIndexOf
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetExceptionDetails.Reverse
+Info: BuildAssembler: Building topic Overload:ScrimpNet.SNetExceptionDetails.Sort
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetails.#ctor
+Info: ShowMissingComponent: Auto-documenting constructor M:ScrimpNet.SNetExceptionDetails.#ctor
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetails.Exists(ScrimpNet.SNetExceptionSeverity)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetails.Exists(System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetails.Exists(System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetails.FindAll(ScrimpNet.SNetExceptionSeverity)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetails.FindAll(System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetails.FindAll(System.String)
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetExceptionDetails.Item(System.Int32)
+Info: BuildAssembler: Building topic P:ScrimpNet.SNetExceptionDetails.Item(System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.SNetExceptionDetails.ToString
+Info: BuildAssembler: Building topic T:ScrimpNet.SNetExceptionOptions
+Info: BuildAssembler: Building topic T:ScrimpNet.SNetExceptionSeverity
+Info: BuildAssembler: Building topic T:ScrimpNet.Transform
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Transform.ToDateTime
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Transform.ToBytes
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Transform.FileToByteArray
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Transform.ToEnum
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Transform.ToGuid
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Transform.ToString
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Transform.ToInt32
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Transform.ToInt64
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Transform.ToBoolean
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Transform.ToDecimal
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ConvertValue``1(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.FileToByteArray(System.IO.FileInfo)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.FileToByteArray(System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToBoolean(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToBoolean(System.String,System.Data.DataRow)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToBytes(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToBytes(System.String,System.Data.DataRow)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToDateTime(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToDateTime(System.String,System.Data.DataRow)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToDecimal(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToDecimal(System.Object,System.Boolean)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToDecimal(System.String,System.Data.DataRow)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToDecimal(System.String,System.Data.IDataReader)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToDouble(System.String,System.Data.IDataReader)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToEnum``1(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToEnum``1(System.String,System.Data.DataRow)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToEnum``1(System.String,System.Data.IDataReader)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToGuid(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToGuid(System.String,System.Data.DataRow)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToGuid(System.String,System.Data.IDataReader)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToInt32(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToInt32(System.String,System.Data.DataRow)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToInt32(System.String,System.Data.IDataReader)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToInt64(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToInt64(System.String,System.Data.DataRow)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToLong(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToString(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToString(System.String,System.Data.DataRow)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToString(System.String,System.Data.IDataReader)
+Info: BuildAssembler: Building topic T:ScrimpNet.Utils
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.ToXml
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Transform.ToString
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.StringFormat
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Clone
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Clone(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Clone``1(``0)
+Info: BuildAssembler: Building topic P:ScrimpNet.Utils.CurrentLocale
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.SoapToObject(System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.StreamToString(System.IO.Stream)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.StringFormat(System.IFormatProvider,System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.StringFormat(System.String,System.Object[])
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.StringToASCIIByteArray(System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.StringToUTF8ByteArray(System.String)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.Utils.StringToUTF8ByteArray(System.String)
+Warn: ShowMissingComponent: Missing <param name="pXmlString"> documentation for M:ScrimpNet.Utils.StringToUTF8ByteArray(System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.ToObject``1(System.String)
+Warn: ShowMissingComponent: Missing <summary> documentation for M:ScrimpNet.Utils.ToObject``1(System.String)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.Utils.ToObject``1(System.String)
+Warn: ShowMissingComponent: Missing <param name="serializedObject"> documentation for M:ScrimpNet.Utils.ToObject``1(System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToString(System.Data.IDbCommand)
+Info: BuildAssembler: Building topic M:ScrimpNet.Transform.ToString(System.Exception)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.ToXml(System.Data.IDbCommand)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.ToXml(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.ToXml``1(``0)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.ToXmlSoap(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.UTF8ByteArrayToString(System.Byte[])
+Info: BuildAssembler: Building topic T:ScrimpNet.Utils.Date
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.DayBegin
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.DayEnd
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.WeekBegin
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.WeekEnd
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.MonthBegin
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.MonthEnd
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.QuarterBegin
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.QuarterEnd
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.YearBegin
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.YearEnd
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.DayOfYear
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.Month
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.Quarter
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.Date.Year
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.DayBegin
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.DayBegin(System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.DayEnd
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.DayEnd(System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.DayOfYear
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.Utils.Date.DayOfYear
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.DayOfYear(System.DateTime,System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.DayOfYear(System.Int32,System.DateTime,System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.IsWeekDay(System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.IsWeekEndDay(System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.Month
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.Month(System.DateTime,System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.Month(System.Int32,System.DateTime,System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.MonthBegin
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.MonthBegin(System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.MonthEnd
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.MonthEnd(System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.Quarter
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.Quarter(ScrimpNet.Utils.Date.SNetMonth)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.Quarter(System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.Quarter(System.DateTime,ScrimpNet.Utils.Date.SNetMonth)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.Quarter(System.DateTime,System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterBegin
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterBegin(ScrimpNet.Utils.Date.SNetMonth)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterBegin(System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterBegin(System.DateTime,ScrimpNet.Utils.Date.SNetMonth)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterBegin(System.DateTime,System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterBegin(System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterBegin(System.Int32,System.DateTime,ScrimpNet.Utils.Date.SNetMonth)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterBegin(System.Int32,System.DateTime,System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterEnd
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterEnd(ScrimpNet.Utils.Date.SNetMonth)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterEnd(System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterEnd(System.DateTime,ScrimpNet.Utils.Date.SNetMonth)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterEnd(System.DateTime,System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterEnd(System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterEnd(System.Int32,System.DateTime,ScrimpNet.Utils.Date.SNetMonth)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.QuarterEnd(System.Int32,System.DateTime,System.DateTime)
+Info: BuildAssembler: Building topic P:ScrimpNet.Utils.Date.SqlMaxDate
+Info: BuildAssembler: Building topic P:ScrimpNet.Utils.Date.SqlMinDate
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.ToSqlDate(System.Object)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.WeekBegin
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.WeekBegin(System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.WeekBegin(System.DateTime,System.DayOfWeek)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.WeekBegin(System.DayOfWeek)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.WeekEnd
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.WeekEnd(System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.WeekEnd(System.DateTime,System.DayOfWeek)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.WeekEnd(System.DayOfWeek)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.Year
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.Year(System.DateTime,System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.YearBegin
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.YearBegin(ScrimpNet.Utils.Date.SNetMonth)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.YearBegin(System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.YearBegin(System.DateTime,ScrimpNet.Utils.Date.SNetMonth)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.YearBegin(System.DateTime,System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.YearEnd
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.YearEnd(ScrimpNet.Utils.Date.SNetMonth)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.YearEnd(System.DateTime)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.YearEnd(System.DateTime,ScrimpNet.Utils.Date.SNetMonth)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Date.YearEnd(System.DateTime,System.DateTime)
+Info: BuildAssembler: Building topic T:ScrimpNet.Utils.Date.SNetMonth
+Info: BuildAssembler: Building topic T:ScrimpNet.Utils.RuntimeContext
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Utils.RuntimeContext.ToString
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.RuntimeContext.#ctor(ScrimpNet.RuntimeContextOptions)
+Warn: ShowMissingComponent: Missing <param name="options"> documentation for M:ScrimpNet.Utils.RuntimeContext.#ctor(ScrimpNet.RuntimeContextOptions)
+Info: BuildAssembler: Building topic P:ScrimpNet.Utils.RuntimeContext.Formatter
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.RuntimeContext.GetSchema
+Info: BuildAssembler: Building topic P:ScrimpNet.Utils.RuntimeContext.HttpRequest
+Info: BuildAssembler: Building topic P:ScrimpNet.Utils.RuntimeContext.MachineContext
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.RuntimeContext.ReadXml(System.Xml.XmlReader)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.RuntimeContext.ToString
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.RuntimeContext.ToString(System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.RuntimeContext.ToString(System.String,System.IFormatProvider)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.RuntimeContext.ToXml
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.RuntimeContext.WriteXml(System.Xml.XmlWriter)
+Info: BuildAssembler: Building topic T:ScrimpNet.RuntimeContextOptions
+Info: BuildAssembler: Building topic T:ScrimpNet.Utils.Win32
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Win32.GetCurrentProcessId
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.Utils.Win32.GetCurrentProcessId
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Win32.GetCurrentThreadId
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.Utils.Win32.GetCurrentThreadId
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Win32.GetModuleFileName(System.IntPtr,System.Text.StringBuilder,System.Int32)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.Utils.Win32.GetModuleFileName(System.IntPtr,System.Text.StringBuilder,System.Int32)
+Warn: ShowMissingComponent: Missing <param name="hModule"> documentation for M:ScrimpNet.Utils.Win32.GetModuleFileName(System.IntPtr,System.Text.StringBuilder,System.Int32)
+Warn: ShowMissingComponent: Missing <param name="lpFilename"> documentation for M:ScrimpNet.Utils.Win32.GetModuleFileName(System.IntPtr,System.Text.StringBuilder,System.Int32)
+Warn: ShowMissingComponent: Missing <param name="nSize"> documentation for M:ScrimpNet.Utils.Win32.GetModuleFileName(System.IntPtr,System.Text.StringBuilder,System.Int32)
+Info: BuildAssembler: Building topic M:ScrimpNet.Utils.Win32.GetModuleHandle(System.String)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.Utils.Win32.GetModuleHandle(System.String)
+Warn: ShowMissingComponent: Missing <param name="moduleName"> documentation for M:ScrimpNet.Utils.Win32.GetModuleHandle(System.String)
+Info: BuildAssembler: Building topic N:ScrimpNet.Diagnostics.Logging
+Info: BuildAssembler: Building topic T:ScrimpNet.Diagnostics.Logging.MachineContext
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Diagnostics.Logging.MachineContext.ToXml
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Diagnostics.Logging.MachineContext.ToString
+Info: BuildAssembler: Building topic M:ScrimpNet.Diagnostics.Logging.MachineContext.#ctor
+Info: BuildAssembler: Building topic P:ScrimpNet.Diagnostics.Logging.MachineContext.AppDomainName
+Info: BuildAssembler: Building topic P:ScrimpNet.Diagnostics.Logging.MachineContext.ClassName
+Info: BuildAssembler: Building topic P:ScrimpNet.Diagnostics.Logging.MachineContext.Formatter
+Info: BuildAssembler: Building topic M:ScrimpNet.Diagnostics.Logging.MachineContext.GetSchema
+Info: BuildAssembler: Building topic P:ScrimpNet.Diagnostics.Logging.MachineContext.HostName
+Info: BuildAssembler: Building topic P:ScrimpNet.Diagnostics.Logging.MachineContext.Identity
+Info: BuildAssembler: Building topic P:ScrimpNet.Diagnostics.Logging.MachineContext.IpAddressList
+Info: BuildAssembler: Building topic P:ScrimpNet.Diagnostics.Logging.MachineContext.ManagedThreadName
+Info: BuildAssembler: Building topic P:ScrimpNet.Diagnostics.Logging.MachineContext.MethodName
+Info: BuildAssembler: Building topic P:ScrimpNet.Diagnostics.Logging.MachineContext.ProcessId
+Info: BuildAssembler: Building topic P:ScrimpNet.Diagnostics.Logging.MachineContext.ProcessName
+Info: BuildAssembler: Building topic M:ScrimpNet.Diagnostics.Logging.MachineContext.ReadXml(System.Xml.XmlReader)
+Warn: ShowMissingComponent: Missing <param name="reader"> documentation for M:ScrimpNet.Diagnostics.Logging.MachineContext.ReadXml(System.Xml.XmlReader)
+Info: BuildAssembler: Building topic P:ScrimpNet.Diagnostics.Logging.MachineContext.StackTrace
+Info: BuildAssembler: Building topic M:ScrimpNet.Diagnostics.Logging.MachineContext.ToString(System.String)
+Info: BuildAssembler: Building topic M:ScrimpNet.Diagnostics.Logging.MachineContext.ToString(System.String,System.IFormatProvider)
+Info: BuildAssembler: Building topic M:ScrimpNet.Diagnostics.Logging.MachineContext.ToXml
+Info: BuildAssembler: Building topic M:ScrimpNet.Diagnostics.Logging.MachineContext.ToXml(System.Xml.XmlWriter)
+Info: BuildAssembler: Building topic P:ScrimpNet.Diagnostics.Logging.MachineContext.UserDomainName
+Info: BuildAssembler: Building topic P:ScrimpNet.Diagnostics.Logging.MachineContext.Win32ThreadId
+Info: BuildAssembler: Building topic M:ScrimpNet.Diagnostics.Logging.MachineContext.WriteXml(System.Xml.XmlWriter)
+Info: BuildAssembler: Building topic T:ScrimpNet.Diagnostics.Logging.MachineContextFormatter
+Info: BuildAssembler: Building topic M:ScrimpNet.Diagnostics.Logging.MachineContextFormatter.#ctor
+Info: ShowMissingComponent: Auto-documenting constructor M:ScrimpNet.Diagnostics.Logging.MachineContextFormatter.#ctor
+Info: BuildAssembler: Building topic M:ScrimpNet.Diagnostics.Logging.MachineContextFormatter.Format(System.String,System.Object,System.IFormatProvider)
+Warn: ShowMissingComponent: Missing <returns> documentation for M:ScrimpNet.Diagnostics.Logging.MachineContextFormatter.Format(System.String,System.Object,System.IFormatProvider)
+Warn: ShowMissingComponent: Missing <param name="format"> documentation for M:ScrimpNet.Diagnostics.Logging.MachineContextFormatter.Format(System.String,System.Object,System.IFormatProvider)
+Warn: ShowMissingComponent: Missing <param name="formatProvider"> documentation for M:ScrimpNet.Diagnostics.Logging.MachineContextFormatter.Format(System.String,System.Object,System.IFormatProvider)
+Info: BuildAssembler: Building topic M:ScrimpNet.Diagnostics.Logging.MachineContextFormatter.GetFormat(System.Type)
+Info: BuildAssembler: Building topic N:ScrimpNet.Web
+Info: BuildAssembler: Building topic T:ScrimpNet.Web.WebUtils
+Info: BuildAssembler: Building topic Overload:ScrimpNet.Web.WebUtils.HttpRequestToXml
+Info: BuildAssembler: Building topic M:ScrimpNet.Web.WebUtils.HttpRequestToXml
+Info: BuildAssembler: Building topic M:ScrimpNet.Web.WebUtils.HttpRequestToXml(System.Web.HttpRequest)
+Info: BuildAssembler: Building topic R:Project
+Info: Processed 378 topics
+    Last step completed in 00:01:10.2022
+-------------------------------
+Generating intermediate table of content file...
+[H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\GenerateIntermediateTOC.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\CreatePrototypeToc.xsl'.
+    Last step completed in 00:00:00.8281
+-------------------------------
+Generating HTML Help 1.x table of content file...
+[H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Generate1xTOC.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\TocToChmContents.xsl'.
+    Last step completed in 00:00:02.8906
+Updating table of content with additional content items and determining default topic...
+    Last step completed in 00:00:00.1719
+-------------------------------
+Generating HTML Help 1.x index file...
+[H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Generate1xIndex.bat]
+XslTransform (v2.3.8000.26)
+Copyright c Microsoft 2005-2006
+Info: Applying XSL transformation 'C:\Program Files\Sandcastle\ProductionTransforms\ReflectionToChmIndex.xsl'.
+    Last step completed in 00:00:00.5625
+-------------------------------
+Generating HTML Help 1.x project file...
+    Last step completed in 00:00:00.0937
+-------------------------------
+Compiling HTML Help 1.x file...
+[H:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Build1xHelpFile.bat]
+Microsoft HTML Help Compiler 4.74.8702
+
+
+
+Compiling h:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\Documentation.chm
+
+
+
+
+
+Compile time: 0 minutes, 5 seconds
+
+380	Topics
+
+2,874	Local links
+
+0	Internet links
+
+0	Graphics
+
+
+
+
+
+Created h:\CareBill Solution\ScrimpNet Core\Documentation\Help\Working\Output\Documentation.chm, 329,829 bytes
+
+Compression decreased file by 2,317,052 bytes.
+
+    Last step completed in 00:00:07.4374
+Removing intermediate files...
+    Last step completed in 00:00:07.3593
+
+
+Build completed successfully.  Total time: 00:01:41.1393
+

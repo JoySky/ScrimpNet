@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrimpNet.Core", "ScrimpNet.Core Project\ScrimpNet.Core.csproj", "{4CCD8FCC-8BFD-4787-8D0F-67994CB1D83D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__ScrimpNet.Core Tests", "__ScrimpNet.Core Tests", "{5734A185-9196-4833-A77A-48C0D1CF3E58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreTests", "_ScrimpNet.Core Tests\CoreTests\CoreTests.csproj", "{E24915E3-64CD-49D2-B664-32156ACD57F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA03D52F-02AC-4B30-A20C-DD5DF98392F6}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		ScrimpNet.Core Library Solution-vs2010.vsmdi = ScrimpNet.Core Library Solution-vs2010.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__Project References", "__Project References", "{E31C288C-5C4D-4E1B-B1BC-6CCC97E4BB10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{9DF4FBF1-6167-4604-A993-A60B59361774}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Help\Documentation.chm = Documentation\Help\Documentation.chm
+		Documentation\ScrimpNet.Library.Core Documentation.shfbproj = Documentation\ScrimpNet.Library.Core Documentation.shfbproj
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ScrimpNet.Core Library Solution-vs2010.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CCD8FCC-8BFD-4787-8D0F-67994CB1D83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCD8FCC-8BFD-4787-8D0F-67994CB1D83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCD8FCC-8BFD-4787-8D0F-67994CB1D83D}.Debug|x86.ActiveCfg = Debug|x86
+		{4CCD8FCC-8BFD-4787-8D0F-67994CB1D83D}.Debug|x86.Build.0 = Debug|x86
+		{4CCD8FCC-8BFD-4787-8D0F-67994CB1D83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCD8FCC-8BFD-4787-8D0F-67994CB1D83D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CCD8FCC-8BFD-4787-8D0F-67994CB1D83D}.Release|x86.ActiveCfg = Release|x86
+		{4CCD8FCC-8BFD-4787-8D0F-67994CB1D83D}.Release|x86.Build.0 = Release|x86
+		{E24915E3-64CD-49D2-B664-32156ACD57F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24915E3-64CD-49D2-B664-32156ACD57F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E24915E3-64CD-49D2-B664-32156ACD57F0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E24915E3-64CD-49D2-B664-32156ACD57F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E24915E3-64CD-49D2-B664-32156ACD57F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E24915E3-64CD-49D2-B664-32156ACD57F0}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E24915E3-64CD-49D2-B664-32156ACD57F0} = {5734A185-9196-4833-A77A-48C0D1CF3E58}
+		{BA03D52F-02AC-4B30-A20C-DD5DF98392F6} = {5734A185-9196-4833-A77A-48C0D1CF3E58}
+	EndGlobalSection
+EndGlobal

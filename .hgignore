@@ -1,0 +1,11 @@
+syntax: glob
+bin/*
+obj/*
+*.ReSharper.user
+*.suo
+TestResults/*
+.svn/*
+Release/*
+*.scc
+*.user
+

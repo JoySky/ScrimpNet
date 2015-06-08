@@ -1,0 +1,9 @@
+﻿10.05.14.0 -----------------------
+*  Added License Text To Source Files
+*  Removed vestigal references to source control
+*  Added VS2010 and VS2008 solution files
+*  Cleaned up unnecessary files (bin, obj, suo)
+*  Added Utils.Win32 file that was missing from 10.05.10.0
+
+10.05.14.0 -----------------------
+*  Initial upload
