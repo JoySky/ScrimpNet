@@ -2,6 +2,8 @@
 C# Developer Utility Library
 ScrimpNet.com Developer Utility Library
 
+Copy from http://scrimpnet.codeplex.com/
+
 New WCF Membership Provider!
 
 This library extension creates a WCF wrapper around your ASP.Net membership provider. You can use most any standard ASP.Net membership provider as your underlying security. You can use this provider to easily build out web farms using a common web services security end point. (This is a beta project seems to work, but we don't haven't deployed this into a production environment). See Security documentation for details.
